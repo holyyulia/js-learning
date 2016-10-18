@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>test</title>
+	</head>
+	<body>
+	<script type="text/javascript" src="jquery.min.js"></script>
+		<script type="text/javascript" src="test.js"></script>
+		<section>
+			<h1>Heading</h1>
+			<h2>Subheading</h2>
+			<button class="showValues">Another button</button>
+
+			<p class="textParagraph" style="display:block;"><strong>This</strong> <i>is</i> a test.</p>
+			<p class="textParagraph" style="display:block;"><strong>This</strong> <i>is</i> a test.</p>
+			<p class="textParagraph" style="display:block;"><strong>This</strong> <i>is</i> a test.<span style="font-weight: bold;">This is next text.</span></p>
+
+			<!-- <input type="text" name="name" onclick="logTime()" /> -->
+			<button onclick="hideParagraphs()">Hide Paragraphs</button>
+			<button onclick="show()">Show Text</button>
+			<p id="hidden" style="display:none;">Hidden text</p>
+
+			<!--<div>
+				<input id="name-input" type="text" name="name"/>
+				<button onclick="showGreeting()">Hi!</button>
+				<p class="greetingParagraph"></p>
+				<p class="greetingParagraph"></p>
+				<p class="greetingParagraph"></p>
+			</div>-->
+
+			<div>
+				<!-- <form action="http://url.com/"> -->
+				<input id="login" type="email" name="login"/>
+				<input id="password" type="password" name="password"/>
+				<input type="checkbox" name="" value="true">
+				<input type="radio" name="radioGroup" value="1">
+				<input type="radio" name="radioGroup" value="2" >
+				<input type="radio" name="radioGroup" value="3" >
+				<input type="radio" name="radioGroup2" value="4" >
+				<select>
+					<option>1</option>
+					<option>2</option>
+					<option>3</option>
+				</select>
+				<button class="showValues">Show</button>
+				<!-- </form> -->
+				<p id="loginParagraph"></p> <!-- Login: login -->
+				<p id="passwordParagraph"></p> <!-- Password: password -->
+			</div>
+
+		</section>
+		
+	</body>
+</html>
